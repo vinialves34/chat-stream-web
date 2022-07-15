@@ -1,0 +1,10 @@
+version: '3'
+  
+services:
+  app-web:
+    build: .
+    container_name: "app-web"
+    ports:
+      - 5173:5173
+    volumes:
+      - ./src:/usr/app-web/src
