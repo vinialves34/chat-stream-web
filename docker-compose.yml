@@ -7,4 +7,4 @@ services:
     ports:
       - 5173:5173
     volumes:
-      - ./src:/usr/app-web/src
+      - .:/usr/app-web
